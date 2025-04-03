@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", function () {
   // Display the count on the webpage
   let countDisplay = document.getElementById("countDisplay");
   if (countDisplay) {
-    countDisplay.innerText = Page Views: ${count};
+    countDisplay.innerText = `Page Views: ${count}`;
   }
 });
 
